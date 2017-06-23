@@ -1,8 +1,19 @@
+## PROJECT DEPRECATED
+
+Main development was shifted to a [new window manager](https://github.com/koekeishiya/chunkwm) early 2017.
+
+**Kwm** was a nice proof of concept, but had many faults in its architecture.
+
+The experience gained while working on **kwm** has been huge, and so I found that starting a complete re-write
+from scratch was necessary to create a stable window manager of higher quality.
+Despite the time and effort this requires, it would be worth it in the end.
+
+This repository and the currently available documentation will remain as is, but I highly suggest using the new
+[chunkwm](https://github.com/koekeishiya/chunkwm) instead.
+
+---
+
 ## Description [![Build Status](https://travis-ci.org/koekeishiya/kwm.svg?branch=master)](https://travis-ci.org/koekeishiya/kwm)
-
-**NOTE:** The master branch is considered stable and can be used instead of the latest release version.
-
-**NOTE:** Main development focus has been shifted to a [new window manager](https://github.com/koekeishiya/chunkwm) based on plugin architecture.
 
 [**Kwm**](https://koekeishiya.github.io/kwm) started as a simple project to get true focus-follows-mouse support on OSX through event tapping.
 It is now a tiling window manager that represents windows as the leaves of a binary tree.
